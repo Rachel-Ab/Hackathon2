@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 287830458}
   - component: {fileID: 287830461}
   - component: {fileID: 287830462}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -246,10 +246,10 @@ MonoBehaviour:
   moveSpeed: 250
   jumpForce: 350
   groundCheck: {fileID: 1733313960}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 0.34
   collisionLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   rb: {fileID: 287830458}
   animator: {fileID: 287830461}
   spriteRenderer: {fileID: 287830455}
@@ -18333,7 +18333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733313959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0154, y: -0.506, z: 0}
+  m_LocalPosition: {x: 0.0153, y: -0.3192, z: 0}
   m_LocalScale: {x: 2.4125, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 287830456}
