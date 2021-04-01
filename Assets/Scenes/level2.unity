@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 287830458}
   - component: {fileID: 287830457}
   - component: {fileID: 287830460}
+  - component: {fileID: 287830461}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -275,6 +276,8 @@ MonoBehaviour:
   groundCheckLeft: {fileID: 2132235733}
   groundCheckRight: {fileID: 1733313960}
   rb: {fileID: 287830458}
+  animator: {fileID: 287830461}
+  spriteRenderer: {fileID: 287830455}
 --- !u!58 &287830460
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -291,6 +294,25 @@ CircleCollider2D:
   m_Offset: {x: 0.024364948, y: -0.28481692}
   serializedVersion: 2
   m_Radius: 0.21602315
+--- !u!95 &287830461
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287830454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0fc2461de95457848864e6839d386a23, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +357,8 @@ MonoBehaviour:
   groundCheckLeft: {fileID: 0}
   groundCheckRight: {fileID: 0}
   rb: {fileID: 0}
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -362,7 +386,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.14
+  orthographic size: 7.615632
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -386,7 +410,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -4.43, y: -1.58, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
